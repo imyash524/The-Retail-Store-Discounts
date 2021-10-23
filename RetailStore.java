@@ -25,7 +25,7 @@ public class RetailStore {
 				{
 					System.out.println(name+" Your bill is "+bill1_e);
 				}
-				
+				break;
 			case 2:
 				System.out.println("Enter your bill: ");
 				float bill_a=sc.nextFloat();
@@ -39,7 +39,7 @@ public class RetailStore {
 				{
 					System.out.println(name+" Your bill is "+bill1_a);
 				}
-				
+				break;
 			case 3:
 				System.out.println("Are you a customer over 2 years:\n1.Yes 2.No");
 				int v=sc.nextInt();
